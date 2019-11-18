@@ -1,13 +1,30 @@
-# Project: Members only
+# Rails' Associations
+### A basic Rails project implementing associations (Members Only)
+#### Project 7
 
-This project is part of the Main Ruby on Rails curriculum at [Microverse](https://www.microverse.org/)
-* The goal was to understand how active record associations work on Ruby on Rails.
-* The project was completed using Ruby on Rails.
+## Usage & Installation
 
-#### [Assignment link](https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-associations)  
+Install the necessary gems:
 
-#### Authors
+```
+$ bundle install --without production
+```
 
-* [@FSolM](https://github.com/https://github.com/FSolM)
-* [@codingAngarita](https://github.com/codingAngarita)
+*The gems included in the project are no necessary up to date, be sure to update them before running the project to project it from vulnerabilities.*
 
+Migrate the local database:
+
+```
+$ rails db:migrate
+```
+
+Run Rails app locally:
+
+```
+$ rails server
+```
+
+#### Created by:
+
+Carlos Sol: [@FSolM](https://github.com/FSolM)<br>
+Juan Escobar: [@codingAngarita](https://github.com/codingAngarita)
